@@ -4,7 +4,7 @@
 #
 Name     : pyotherside
 Version  : 1.5.4
-Release  : 1
+Release  : 2
 URL      : https://github.com/thp/pyotherside/archive/1.5.4.tar.gz
 Source0  : https://github.com/thp/pyotherside/archive/1.5.4.tar.gz
 Summary  : No detailed summary available
