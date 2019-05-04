@@ -4,7 +4,7 @@
 #
 Name     : pyotherside
 Version  : 1.5.4
-Release  : 2
+Release  : 3
 URL      : https://github.com/thp/pyotherside/archive/1.5.4.tar.gz
 Source0  : https://github.com/thp/pyotherside/archive/1.5.4.tar.gz
 Summary  : No detailed summary available
@@ -54,7 +54,7 @@ test -r config.log && cat config.log
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1555002782
+export SOURCE_DATE_EPOCH=1556946759
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/pyotherside
 cp LICENSE %{buildroot}/usr/share/package-licenses/pyotherside/LICENSE
