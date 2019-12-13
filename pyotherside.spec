@@ -4,7 +4,7 @@
 #
 Name     : pyotherside
 Version  : 1.5.8
-Release  : 8
+Release  : 9
 URL      : https://github.com/thp/pyotherside/archive/1.5.8/pyotherside-1.5.8.tar.gz
 Source0  : https://github.com/thp/pyotherside/archive/1.5.8/pyotherside-1.5.8.tar.gz
 Summary  : No detailed summary available
