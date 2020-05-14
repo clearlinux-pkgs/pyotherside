@@ -4,7 +4,7 @@
 #
 Name     : pyotherside
 Version  : 1.5.9
-Release  : 12
+Release  : 13
 URL      : https://github.com/thp/pyotherside/archive/1.5.9/pyotherside-1.5.9.tar.gz
 Source0  : https://github.com/thp/pyotherside/archive/1.5.9/pyotherside-1.5.9.tar.gz
 Summary  : No detailed summary available
