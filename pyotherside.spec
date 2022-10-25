@@ -4,7 +4,7 @@
 #
 Name     : pyotherside
 Version  : 1.6.0
-Release  : 19
+Release  : 20
 URL      : https://github.com/thp/pyotherside/archive/1.6.0/pyotherside-1.6.0.tar.gz
 Source0  : https://github.com/thp/pyotherside/archive/1.6.0/pyotherside-1.6.0.tar.gz
 Summary  : No detailed summary available
@@ -57,10 +57,10 @@ test -r config.log && cat config.log
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1661282237
+export SOURCE_DATE_EPOCH=1666737585
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/pyotherside
-cp %{_builddir}/pyotherside-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/pyotherside/9b7d1bcb2d2614f294aedf5b47da5bb7c3511754
+cp %{_builddir}/pyotherside-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/pyotherside/9b7d1bcb2d2614f294aedf5b47da5bb7c3511754 || :
 %make_install
 
 %files
